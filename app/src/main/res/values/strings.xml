@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">plaine-example</string>
+    <string name="app_name">Plaine Example</string>
     <string name="year">1970</string>
     <string name="type_plaine">Boeing 747</string>
-
 
     <string name="content_title">Airliner proposal</string>
     <string name="content">
@@ -89,6 +88,11 @@
 </html>
         ]]>
     </string>
+    <string name="add_new_article">Add new article</string>
+    <string name="new_title">Enter new title fot article</string>
+    <string name="new_content">Enter new content for article</string>
+    <string name="new_image">Choice new image</string>
+    <string name="add_data">Add Data</string>
 
 
 </resources>

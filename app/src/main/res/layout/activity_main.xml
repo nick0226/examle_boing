@@ -19,4 +19,18 @@
         app:spanCount="2"
         tools:listitem="@layout/item_card" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addNewContent"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:onClick="addNewArticle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:contentDescription="@string/add_new_article"
+        android:focusable="true" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
